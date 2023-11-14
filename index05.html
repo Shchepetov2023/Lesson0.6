@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Верстка макета</title>
     <link rel="stylesheet" href="css/libraries/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main05.css">
-    <script defer src="js/libraries/bootstrap.bundle.min.js"></script>
-    <script src="js/main05.js"></script>
+    <link rel="stylesheet" href="css/min05.css">
+    
+    
 
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="row centered">
-                <div class="col-xl-1 col-md-4">
+            <div class="row justify-content-betwen">
+                <div class="col-xl-1 col-md-1">
                     <a class="logo" href="#">B</a>
                 </div>
                 
-                <div class="col-xl-9 col-md-12 menu">
+                <div class="col-xl-9 col-md-8 menu">
                     <a class="menu wrapper" href="#offer-section">Carousel</a> 
                     <a class="menu wrapper" href="#modal-section">Modal&Tabs</a>
                     <a class="menu wrapper" href="#accord-section">Accordion</a>
                 </div>
                
-                <div class="col-xl-2 col-md-12">
+                <div class="col-xl-2 col-md-1">
                     <button class="btn btn-outline-success button" type="submit">Progress</button>
                 </div>
                 
@@ -34,7 +34,7 @@
                 
     <section class="offer-section" id="offer-section">
         <div class="container">
-            <div class="row centered">
+            <div class="row">
                 <div class="col-xl-12 col-md-12">
                     <div id="carouselExampleIndicators" class="carousel slide">
                         <div class="carousel-indicators">
@@ -73,11 +73,11 @@
 
     <section class="modal-section" id="modal-section">
         <div class="container">
-            <div class="row centered">
-                <div class="col-xl-12 col-md-12">
+            <div class="row">
+                <div class="col-xl-12 col-md-1">
                     <h2 class="modal-title">Modal and Tabs</h2>
                 </div>
-                <div class="col-xl-5 col-md-5">
+                <div class="col-xl-5 col-md-4">
                         <!-- Button trigger modal -->
                       <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Vertically centered modal
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-7 tabl-wrapper">
+                <div class="col-xl-7 col-md-10 tabl-wrapper">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                           <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Bootstrap</button>
@@ -124,11 +124,11 @@
     
     <section class="accord-section" id="accord-section">
         <div class="container">
-            <div class="row centered">
-                <div class="col-xl-12 col-md-4 accord-menu">
+            <div class="row ">
+                <div class="col-xl-12 col-md-12 accord-menu">
                     <h2>Accordion</h2>
                 </div>
-                <div class="col-xl-8 accord-content">
+                <div class="col-xl-8 col-md-6 accord-content">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -182,7 +182,8 @@
         </div>
     </footer>
 
-            
+    <script src="js/min05.js"></script>        
+    <script defer src="js/libraries/bootstrap.bundle.min.js"></script>
     <script src="./js/jquery-3.7.1.min.js"></script>
 </body>
 
