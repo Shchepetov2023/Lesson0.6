@@ -88,13 +88,11 @@ a:hover, a:focus {
 }
 
 .carousel-block {
-    height: 637px;
-    flex-shrink: 0;
     margin-top: 70px;
 }
 
 .carousel-indicators {
-    top: 621px;
+    bottom: -50px;
     gap: 10px;
     
 }
@@ -104,6 +102,7 @@ a:hover, a:focus {
    width: 16px;
    height: 16px;
    border: none;
+   
    
 }
 
@@ -301,12 +300,12 @@ h4 {
 .footer-section {
     display: flex;
     text-align: center;
-    
-}
-    
-h6 {
+    height: 69px;
     margin-top: 120px;
+    
 }
+    
+
 
 
 
