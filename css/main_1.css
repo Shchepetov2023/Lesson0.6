@@ -11,9 +11,8 @@ body {
     -webkit-overflov-scrolling: touch;
 
     margin-top: 10px;
-    
 }
-
+    
 h1, h2, h3, h4, h5, h6 {
     font-family: "Prompt";
     font-weight: 300;
@@ -56,16 +55,14 @@ a:hover, a:focus {
     font-weight: 600;
     line-height: 28px;
     text-decoration: none;
-
 }
-
+    
 .menu {
    display: flex;
    justify-content: center;
    text-decoration: none;
    gap: 70px;
    margin-top: 10px;
-   
 }
 
 .button {
@@ -89,37 +86,37 @@ a:hover, a:focus {
 
 .carousel-block {
     margin-top: 70px;
+    padding-bottom: 158px;
 }
 
 .carousel-indicators {
     bottom: -50px;
     gap: 10px;
-    
 }
-
+    
 .carousel-indicators [data-bs-target] {
    background-color: #6A9B96;
    width: 16px;
    height: 16px;
    border: none;
-   
-   
 }
-
-.modal-section {
-   height: 366px;
    
+.modal-section {
+    padding-bottom: 120px;
 }
    
 h2 {
+   display: flex; 
+   justify-content: center;
    color: #000;
-   text-align: center;
    font-size: 30px;
    font-style: normal;
-   font-weight: 300;
    line-height: 42px;
-   margin-top: 120px;
-}  
+}
+   
+.modal-title {
+  padding-bottom: 75px;  
+}
 
 .btn-light {
    width: 446px;
@@ -127,15 +124,13 @@ h2 {
    flex-shrink: 0;
    border-radius: 20px;
    opacity: 0.8;
-   margin-top: -100px;
-   
+   margin-top: 80px;
 }
-    
+   
 .btn-light, .btn-light:visited {
    background: #FBDCC7! important;
-    
 }
-
+    
 button.btn.btn-light {
    color: #000;
    text-align: center;
@@ -143,12 +138,10 @@ button.btn.btn-light {
    font-style: normal;
    font-weight: 400;
    line-height: 42px;
-   margin-top: 250px;
 }
-
+   
 .modal-header {
     border-bottom: none;
-    
 }
     
 h4 {
@@ -168,7 +161,6 @@ h4 {
     flex-shrink: 0;
     fill: #6A9B96;
     margin-bottom: 30px;
-    
 }
     
 .modal-content {
@@ -177,8 +169,7 @@ h4 {
     border-radius: 20px;
     background: #FFF;
     top: 200px;
-    
-    
+    justify-content: center;
 }
     
 .modal-text {
@@ -190,12 +181,10 @@ h4 {
     font-weight: 400;
     line-height: 21px;
     margin: 0 auto;
-    
 }
     
 .tabl-wrapper {
-   padding-top: 130px;
-   padding-left: 130px; 
+    margin: 0 auto;
 }
 
 .nav-pills .nav-link.active {
@@ -212,9 +201,8 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-    
 }
-
+    
 .nav-link {
     height: 50px;
     padding: 14px 44px 15px 44px;
@@ -228,7 +216,6 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-
 }
 
 .tab-content {
@@ -237,9 +224,8 @@ h4 {
     border-radius: 0px 0px 20px 20px;
     background: #C3D2CB;
     margin-top: -16px;
-    
 }
-
+    
 .tab-pane {
     width: 485px;
     color: #000;
@@ -251,16 +237,8 @@ h4 {
     padding-top: 58px;
 }
 
-.accord-menu {
-    margin: 0 auto;
-    margin-top: 300px;
-}
-
-
-    
 .accordion-button {
     background: #FBDCC7;
-    
 }
     
 .accordion-button:not(.collapsed) {
@@ -268,33 +246,28 @@ h4 {
     background-color: #FBDCC7;
     border: none;
     box-shadow: none;
-    
-    
 }
     
 .accordion {
     --bs-accordion-border-color: none;
+}
     
-}
-
 .accord-content {
-    margin-top: 92px;
-    margin-left: 190px;
+    margin: 0 auto;
+    margin-top: 92px;  
 }
-
+    
 .accordion-body {
     color: #000;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 21px;
-    
 }
     
 .accordion-item:first-of-type .accordion-button {
     border-radius: 20px 20px 0px 0px;
     box-shadow: none;
-    
 }
     
 .footer-section {
@@ -302,9 +275,21 @@ h4 {
     text-align: center;
     height: 69px;
     margin-top: 120px;
-    
 }
     
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1110px;
+}
+
+}
+
+@media (min-width: 768px) {
+.mb-md-3 {
+    margin-bottom: 5rem!important;
+}
+
+}
 
 
 
