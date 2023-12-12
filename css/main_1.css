@@ -11,9 +11,8 @@ body {
     -webkit-overflov-scrolling: touch;
 
     margin-top: 10px;
-    
 }
-
+    
 h1, h2, h3, h4, h5, h6 {
     font-family: "Prompt";
     font-weight: 300;
@@ -56,16 +55,14 @@ a:hover, a:focus {
     font-weight: 600;
     line-height: 28px;
     text-decoration: none;
-
 }
-
+    
 .menu {
    display: flex;
    justify-content: center;
    text-decoration: none;
    gap: 70px;
    margin-top: 10px;
-   
 }
 
 .button {
@@ -81,62 +78,55 @@ a:hover, a:focus {
     background: #6A9B96;
     margin-top: 19px;
     color: var(--white, #FFF);
-    font-family: Proxima Nova;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
 }
 
-.slide {
-   
-   height: 600px;
-   margin-top: 70px;
-   
-}
-   
-.slider-wrapper {
-   height: 700px;
-
+.carousel-block {
+    margin-top: 70px;
+    padding-bottom: 158px;
+    
 }
 
 .carousel-indicators {
-   top: 720px;
+    bottom: -50px;
+    gap: 7px;
 }
- 
+    
 .carousel-indicators [data-bs-target] {
    background-color: #6A9B96;
    width: 16px;
    height: 16px;
    border: none;
+}
    
+.modal-section {
+    padding-bottom: 120px;
 }
-
-.modal-wrapper {
-   display: flex;
-   height: 366px;
-    
+   
+h2 {
+   text-align: center;
+   color: #000;
+   font-size: 30px;
+   font-style: normal;
+   line-height: 42px;
+   margin-bottom: 75px;
 }
-  
-.modal-title {
-   margin-left: 441px;
-   margin-top: 80px;
-}
+   
 .btn-light {
    width: 446px;
    height: 100px;
    flex-shrink: 0;
    border-radius: 20px;
    opacity: 0.8;
-   margin-top: -100px;
-   
 }
-    
+   
 .btn-light, .btn-light:visited {
    background: #FBDCC7! important;
-    
 }
-
+   
 button.btn.btn-light {
    color: #000;
    text-align: center;
@@ -144,68 +134,70 @@ button.btn.btn-light {
    font-style: normal;
    font-weight: 400;
    line-height: 42px;
-   margin-top: 250px;
+}
+   
+.modal-header {
+   border-bottom: none;
+   padding: 0 0;
+   margin-right: 30px;
 }
 
-.modal-header {
-    border-bottom: none;
-    
+.modal-header .btn-close {
+    margin: 0 0;
 }
-    
+
+.modal-body {
+    padding: 0 0;
+}
+
 h4 {
     color: #424242;
-    text-align: center;
+    margin: 0 auto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 42px;
-    margin-left: 209px;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
-.modal-header .btn-close {
-    width: 32px;
-    height: 32px;
-    flex-shrink: 0;
-    fill: #6A9B96;
-    margin-bottom: 30px;
-    
+p {
+    color: #424242;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 63px; 
 }
+  
+ 
+
     
 .modal-content {
     width: 630px;
     height: 350px;
     border-radius: 20px;
     background: #FFF;
-    top: 200px;
-    
+   
 }
-    
+
 .modal-text {
-    width: 392px;
-    height: 105px;
+    text-align: center;
     color: #424242;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-    margin-left: 119px;
+    margin-top: 63px;
     
 }
     
-.modal-title {
-    margin-top: 200px;
-    padding-left: 80px;
-}
-
 .tabl-wrapper {
-   padding-top: 130px;
-   padding-left: 130px; 
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
 .nav-pills .nav-link.active {
-    display: flex;
-    width: 139px;
     height: 50px;
     padding: 14px 34px 15px 34px;
     justify-content: center;
@@ -219,12 +211,9 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-    
 }
-
+    
 .nav-link {
-    display: flex;
-    width: 139px;
     height: 50px;
     padding: 14px 44px 15px 44px;
     justify-content: center;
@@ -237,19 +226,16 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-
 }
 
 .tab-content {
     width: 635px;
     height: 198px;
-    flex-shrink: 0;
     border-radius: 0px 0px 20px 20px;
     background: #C3D2CB;
     margin-top: -16px;
-
 }
-
+    
 .tab-pane {
     width: 485px;
     color: #000;
@@ -257,39 +243,45 @@ h4 {
     font-style: normal;
     font-weight: 600;
     line-height: 21px;
-    padding: 34px 58px 116px 56px;
+    padding: 34px;
+    padding-top: 58px;
 }
 
-.accord-menu {
-    display: flex;
-    justify-content: center;
-    margin-top: 121px;
+.accordion-title {
+    margin: 0 auto;
+    margin-bottom: 92px;
 }
-    
+
 .accordion-button {
     background: #FBDCC7;
-    
 }
     
 .accordion-button:not(.collapsed) {
     color: #000;
     background-color: #FBDCC7;
-    border: none;
+    border: #C3D2CB;
     box-shadow: none;
-    
-    
 }
     
-.accordion {
+.accordion-menu {
     --bs-accordion-border-color: none;
+    border: inherit;
+    margin: 0 auto;
+}
     
+.accordion-item {
+    background-color: #FFF6EF;
 }
 
-.accord-content {
-    margin-top: 92px;
-    margin-left: 190px;
+.accordion-item:first-of-type {
+    border: none;
 }
-
+    
+.accordion-content {
+    margin: 0 auto;
+    margin-top: 92px;  
+}
+    
 .accordion-body {
     color: #000;
     font-size: 14px;
@@ -308,12 +300,23 @@ h4 {
 .footer-section {
     display: flex;
     text-align: center;
-    
-}
-    
-h6 {
+    height: 69px;
     margin-top: 120px;
 }
+    
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1110px;
+}
+}
+
+@media (min-width: 768px) {
+.mb-md-3 {
+    margin-bottom: 2rem!important;
+}
+}
+
+
 
 
 
